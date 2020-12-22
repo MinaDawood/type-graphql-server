@@ -1,0 +1,12 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "localhost",
+  "port": "5432",
+  "username": "mina",
+  "password": "123",
+  "database": "typegraphql-server",
+  "logging": true,
+  "synchronize": true,
+  "entities": ["src/entity/*.*"]
+}
